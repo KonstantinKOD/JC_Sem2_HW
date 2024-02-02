@@ -11,7 +11,7 @@ public class DiffMinMax {
         int playerDig = sc.nextInt();
         System.out.println();
         int[] mass = new int[playerDig];
-        System.out.println("Введите числа для того,\nчтоб узнать какие из них четные: ");
+        System.out.println("Введите числа для того,\nчтоб узнать разницу между мин/макс: ");
         for (int i = 0; i < mass.length; i++) {
             mass[i] = sc.nextInt();
         }
